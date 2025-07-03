@@ -28,7 +28,20 @@ An AI-driven streaming companion with a unified GUI chat interface, OBS overlay 
 ### Requirements
 
 - **Python 3.8+**  
-- **Dependencies**  
+- **Dependencies**
   ```bash
   pip install openai pyttsx3 pyyaml
+  ```
+
+After installing dependencies, start the overlay server in one terminal:
+
+```bash
+python obs_avatar_ai/overlay_server.py
+```
+
+Then run the main application in another terminal:
+
+```bash
+python obs_avatar_ai/project_geprot.py
+```
 
