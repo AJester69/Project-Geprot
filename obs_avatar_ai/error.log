@@ -1,5 +1,0 @@
-2025-07-06 17:11:43,869 [ERROR] Fatal error in Project Geprot
-Traceback (most recent call last):
-  File "C:\Users\ameer.AJESTER\Desktop\obs_avatar_ai\project_geprot.py", line 117, in <module>
-    print(f"[DEBUG] Writing overlay text to: {self.overlay_path}")
-NameError: name 'self' is not defined
